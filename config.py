@@ -1,0 +1,50 @@
+#Game
+GAME_WIDTH = 800
+GAME_HEIGHT = 600
+
+GAME_NAME = "Lightning Warrior"
+GAME_ICON_PATH = "figure/Icon.png"
+GAME_BG_IMAGE_PATH = "figure/Background.png"
+
+#Sprite
+DEFAULT_HEALTH = 10
+
+"""Player"""
+PLAYER_WIDTH = 100
+PLAYER_ORIGIN_X = GAME_WIDTH / 2
+PLAYER_ORIGIN_Y = GAME_HEIGHT / 12 * 11
+PLAYER_ORIGINAL_SPEED_X = 0
+PLAYER_ORIGINAL_SPEED_Y = 0
+PLAYER_SPEED = 0.1
+
+PLAYER_HEALTH = 100
+
+PLAYER_IMAGE_PATH = "figure/Player.png"
+
+"""Boss"""
+BOSS_WIDTH = 300
+BOSS_ORIGIN_X = GAME_WIDTH / 2
+BOSS_ORIGIN_Y = GAME_HEIGHT / 4
+BOSS_ORIGINAL_SPEED_X = 0.1
+BOSS_ORIGINAL_SPEED_Y = 0.1
+
+BOSS_HEALTH = 500
+
+BOSS_IMAGE_PATH = "figure/Boss.png"
+
+"""Bullet"""
+"""Player Bullet"""
+PLAYER_BULLET_WIDTH = 10
+PLAYER_BULLET_SPEED = 5
+PLAYER_BULLET_PATH = "figure/Player_Bullet.png"
+PLAYER_BULLET_CRASH_PATH = "figure/Player_Bullet_Crash_Path.png"
+PLAYER_BULLET_DAMAGE = 10
+"""Boss Bullet"""
+BOSS_BULLET_WIDTH = 20
+BOSS_BULLET_SPEED = 0.1
+BOSS_BULLET_PATH = "figure/Boss_Bullet.png"
+BOSS_BULLET_CRASH_PATH = "figure/Boss_Bullet_Crash_Path.png"
+BOSS_BULLET_DAMAGE = 50
+
+#Constraints
+DISTANCE_MIN = 2
